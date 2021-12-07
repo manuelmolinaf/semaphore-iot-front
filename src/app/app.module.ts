@@ -20,7 +20,10 @@ const MQTT_SERVICE_OPTIONS: IMqttServiceOptions = {
     MobileComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    CommonModule,
+    MqttModule.forRoot(MQTT_SERVICE_OPTIONS)
   ],
   providers: [],
   bootstrap: [AppComponent]
