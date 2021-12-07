@@ -1,0 +1,79 @@
+.on {
+ top: 15%;
+}
+
+.off {
+ top: 47%;
+}
+
+.circle {
+  height: 71px;
+  width: 71px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 1;
+  left: 70px;
+  position: absolute;
+}
+
+.semaphore {
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  height: 80px;
+  width: 80px;
+  font-size: 40px;
+  border-radius: 50%;
+  background: black;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+.counter.on {
+  color: limegreen;
+}
+
+.counter.off {
+  color: red;
+}
+
+.counter-container {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 23px;
+  padding: 15px;
+  border-radius: 20px;
+  background: darkgray;
+}
+
+.flex {
+  display: flex;
+}
+
+.count-flex {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.font-size-lg {
+  font-size: 40px;
+}
+
+.step-title {
+  color: #4e535c;
+}
+
+.step-count {
+  color: #4e535c;
+  font-weight: bold;
+}
+

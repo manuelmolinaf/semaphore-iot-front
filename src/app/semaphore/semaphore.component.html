@@ -1,0 +1,17 @@
+<div class="flex">
+  <div class="content">
+    <div class="circle" [ngClass]="on ? 'on' : 'off'"></div>
+    <img alt="street light" class="semaphore" height="250" src="assets/semaphore.png">
+  </div>
+
+  <div class="counter-container">
+    <div class="counter" [ngClass]="on ? 'on' : 'off'">
+      {{count}}
+    </div>
+  </div>
+</div>
+
+<div class="flex font-size-lg count-flex">
+  <i class="fas fa-shoe-prints me-3"></i><span class="step-title me-2">Walked Steps: </span><span class="step-count me-1">{{stepCount | async}}</span>
+</div>
+
